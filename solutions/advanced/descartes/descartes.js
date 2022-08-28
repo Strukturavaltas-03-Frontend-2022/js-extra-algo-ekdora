@@ -1,4 +1,4 @@
-const array1 = [1, 2, 3,];
+const array1 = [1, 2, 3];
 const array2 = [3, 4, 5];
 
 function getCartesianProductBetweenTwoArrays(arr1, arr2) {
@@ -9,6 +9,7 @@ function getCartesianProductBetweenTwoArrays(arr1, arr2) {
             descartesOfArrays.push(arr1[i] * arr2[j]);
         }
     }
+    
     return descartesOfArrays;
 }
 
